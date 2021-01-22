@@ -10,17 +10,6 @@ appendChild();
 Math.random(); 
 sort(); 
 For Loop
-
-
-images/frise.jpeg
-imagse/cheessburger.jpeg
-images/hotdog.jpeg
-images/ice-creame.png
-images/milkshake.jpeg
-images/pizza.png
-images/white.jpeg
-
-
 */
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -96,7 +85,6 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
-
     // Check matches
     function checkForMatch () {
         var cards = document.querySelectorAll('img')
@@ -132,7 +120,6 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
-
     // flip the card
     function flipCard() {
         let cardId = this.getAttribute('data-id')
@@ -145,8 +132,5 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
-
     createBoard()
-
-
 });
